@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.linkNAV {
+  padding: 10px 15px;
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+  margin-left: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  margin-top: 15px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+.header h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.header button {
+  width: 30px;
+  height: 29px;
+  margin-left: 25px;
+  border: solid 1px rgb(69, 247, 247);
+  background-color: rgb(69, 247, 247);
+  border-radius: 5px;
+}
+/* ---------------------------------------------------------------  */
+.PageAdd {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.PageAdd .selectes {
+  width: 200px;
+  padding: 10px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  outline: none;
+}
+
+.PageAdd .btn_Addtable {
+  border: 1px solid #ccc;
+  color: #000;
+  background-color: #fff;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.PageAdd .btn_Addtable:hover {
+  background-color: #ccc;
+}
+/* -------------------------------------------------------------------- */
+
+.Plats {
+  padding: 10px;
+}
+
+.Plats .namePlats {
+  width: 200px;
+  height: 51px;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.Plats input[type="number"] {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.Plats .prixPlats {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.Plats .btn_delete_plats {
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.Plats .btn_delete_plats:hover {
+  background-color: #c0392b;
+}
+.Plats .selectSause {
+  width: 150px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.Plats .selectSause option {
+  font-size: 1em;
+}
+
+.Plats .selectSause:focus {
+  outline: none;
+}
+
+.add_Commande {
+  border: none;
+  background-color: #00badd;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.add_Commande:hover {
+  background-color: #00d7ff;
+}
+
+.Total {
+  margin-left: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.add_Cancel {
+  border: none;
+  margin-left: 10px;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* -------------------------------------------------------------------- */
+
+.Vide {
+  background: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.98em;
+  font-weight: BOLD;
+  color: rgb(114, 114, 114);
+  padding: 10px 257px 10px 10px;
+}
+
+.face02 {
+  margin-top: 25px;
+  margin-bottom: 42px;
+}
+
+/* --------------------------------------------------------------- */
+.tableCompleted{
+  width: auto;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px 0 20px 10px;
+  background-color: rgb(60, 255, 0);
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(60, 255, 0);
+  text-align: center;
+}
+th:first-child,th:nth-child(2) {
+  width: 30px;
+}
+
+th:nth-child(3) {
+  width: 100px;
+}
+.tabDVT{
+  width: 150px;
+}
+table button {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.h_footer_total {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px;
+}
+/* ----------------------------------------------------------------- */
+
+.tikect_one h2 {
+  font-size: 2.2em;
+}
+.tikect_one h5 {
+  margin-top: -2px;
+  margin-bottom: 10px;
+}
+
+.tikect_one .Tel {
+  font-size: 0.9em;
+}
+.tikect_one .date {
+  margin: 10px 0;
+}
+
+.tikect_one .date .date1 {
+  margin-right: 10px;
+}
+.Plat_one {
+  margin: 5px 0;
+}
+
+.tikect_one button {
+  border: none;
+  margin-left: 10px;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tikect_one_fdpo {
+  padding: 10px;
+}
+.tikect_one_kdpo {
+  width: 350px;
+  padding: 20px;
+  border: 1px solid #000;
+}

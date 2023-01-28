@@ -1,0 +1,304 @@
+[
+    {   
+        "id":1,
+        "name":"Burger",
+        "sause":[],
+        "menu":[
+            {
+                "idP":11,
+                "name":"Burger cheese",
+                "qte":1,
+                "prix":25,
+                "sause":""
+            },
+            {
+                "idP":12,
+                "name":"Burger chicken",
+                "qte":1,
+                "prix":25,
+                "sause":""
+            },
+            {
+                "idP":13,
+                "name":"Burger double cheese",
+                "qte":1,
+                "prix":30,
+                "sause":""
+            }
+        ]  
+    },{   
+        "id":2,
+        "name":"Pasticcio",
+        "sause":[],
+        "menu":[
+            {
+                "idP":21,
+                "name":"charcuterie",
+                "qte":1,
+                "prix":25,
+                "sause":""
+            },
+            {
+                "idP":22,
+                "name":"Viande Hachee",
+                "qte":1,
+                "prix":30,
+                "sause":""
+            },
+            {
+                "idP":23,
+                "name":"Poulet",
+                "qte":1,
+                "prix":30,
+                "sause":""
+            },{
+                "idP":24,
+                "name":"Mixte",
+                "qte":1,
+                "prix":30,
+                "sause":""
+            },
+            {
+                "idP":25,
+                "name":"Fruit de mer",
+                "qte":1,
+                "prix":35,
+                "sause":""
+            }
+        ]  
+    },
+
+    {   
+        "id":3,
+        "name":"Tacos",
+        "sause":["Algerienne","Biggy","Barbccue","cheese","Andalouse","Samourai"],
+        "menu":[
+            {
+            "idP":31,
+            "name":"Tacos Poulet",
+            "qte":1,
+            "prix":27,
+            "sause":""
+        },
+        {
+            "idP":32,
+            "name":"Tacos Viande Hachee",
+            "qte":1,
+            "prix":27,
+            "sause":""
+        },
+        {
+            "idP":33,
+            "name":"Tacos nuggets",
+            "qte":1,
+            "prix":27,
+            "sause":""
+        },{
+            "idP":34,
+            "name":"Tacos Mixte",
+            "qte":1,
+            "prix":32,
+            "sause":""
+        },
+        {
+            "idP":35,
+            "name":"Tacos geant Poulet",
+            "qte":1,
+            "prix":32,
+            "sause":""
+        },
+        {
+            "idP":36,
+            "name":"Tacos geant Viande Hachee",
+            "qte":1,
+            "prix":32,
+            "sause":""
+        }
+    ]  
+    },{   
+        "id":4,
+        "name":"Sandwich",
+        "sause":[],
+        "menu":[
+            
+        {
+            "idP":41,
+            "name":"Sandwich Thon",
+            "qte":1,
+            "prix":14,
+            "sause":""
+        },
+        {
+            "idP":42,
+            "name":"Sandwich Viande Hachee",
+            "qte":1,
+            "prix":18,
+            "sause":""
+        },
+        {
+            "idP":43,
+            "name":"Sandwich Poulet",
+            "qte":1,
+            "prix":18,
+            "sause":""
+        },
+        {
+            "idP":44,
+            "name":"Sandwich 4 Fromage",
+            "qte":1,
+            "prix":18,
+            "sause":""
+        },{
+            "idP":45,
+            "name":"Sandwich nuggets",
+            "qte":1,
+            "prix":20,
+            "sause":""
+        },{
+            "idP":46,
+            "name":"Sandwich Mixte",
+            "qte":1,
+            "prix":20,
+            "sause":""
+        },{
+            "idP":47,
+            "name":"Sandwich crevette",
+            "qte":1,
+            "prix":25,
+            "sause":""
+        }
+        ]  
+    },{   
+        "id":5,
+        "name":"Plat",
+        "sause":["Blanche","Champignon"],
+        "menu":[
+            {
+                "idP":51,
+                "name":"Plat chicken",
+                "qte":1,
+                "prix":40,
+                "sause":""
+            },
+            {
+                "idP":52,
+                "name":"Plat eminces de poulet",
+                "qte":1,
+                "prix":40,
+                "sause":""
+            },
+            {
+                "idP":53,
+                "name":"Brochettes de Poulet",
+                "qte":1,
+                "prix":40,
+                "sause":""
+            },
+            {
+                "idP":54,
+                "name":"Brochettes de Viande Hachee",
+                "qte":1,
+                "prix":40,
+                "sause":""
+            },{
+                "idP":55,
+                "name":"Brochettes Mixte",
+                "qte":1,
+                "prix":45,
+                "sause":""
+            }
+        ]  
+    },{   
+        "id":6,
+        "name":"Pizza",
+        "sause":[],
+        "menu":[
+            {
+                "idP":61,
+                "name":"Margarita",
+                "qte":1,
+                "prix":22,
+                "sause":""
+            },
+            {
+                "idP":62,
+                "name":"Vegetarien",
+                "qte":1,
+                "prix":25,
+                "sause":""
+            },
+            {
+                "idP":63,
+                "name":"Hot-dog",
+                "qte":1,
+                "prix":25,
+                "sause":""
+            },
+            {
+                "idP":64,
+                "name":"Thon",
+                "qte":1,
+                "prix":28,
+                "sause":""
+            },
+            {
+                "idP":65,
+                "name":"charcuterie",
+                "qte":1,
+                "prix":28,
+                "sause":""
+            },
+            {
+                "idP":66,
+                "name":"Poulet",
+                "qte":1,
+                "prix":28,
+                "sause":""
+            },
+            {
+                "idP":67,
+                "name":"4 Fromages",
+                "qte":1,
+                "prix":30,
+                "sause":""
+            },
+            {
+                "idP":68,
+                "name":"viande Hachee",
+                "qte":1,
+                "prix":35,
+                "sause":""
+            },
+         
+            {
+                "idP":69,
+                "name":"4 Saisons",
+                "qte":1,
+                "prix":35,
+                "sause":""
+            },
+           
+            {
+                "idP":610,
+                "name":"Pepperoni",
+                "qte":1,
+                "prix":35,
+                "sause":""
+            },
+            {
+                "idP":611,
+                "name":"Fruits de mer",
+                "qte":1,
+                "prix":40,
+                "sause":""
+            },
+            {
+                "idP":612,
+                "name":"Pizza LBACHA",
+                "qte":1,
+                "prix":45,
+                "sause":""
+            }
+        ]  
+    }
+]
