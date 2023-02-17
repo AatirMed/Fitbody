@@ -177,7 +177,7 @@ table {
   border-collapse: collapse;
   width: 80%;
   margin: 20px 0 20px 10px;
-  background-color: rgb(60, 255, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 th,
@@ -188,7 +188,7 @@ td {
 }
 
 th {
-  background-color: rgb(60, 255, 0);
+  background-color: rgb(255, 255, 255);
   text-align: center;
 }
 th:first-child,th:nth-child(2) {
@@ -256,3 +256,30 @@ table button {
   padding: 20px;
   border: 1px solid #000;
 }
+.btn_del{
+  background-color: #ff1900;
+  color: #fff;
+}
+.btn_comp{
+  background-color: #49b700;
+  color: #fff;
+}
+.btn_edit{
+  background-color: #00e6f7;
+  color: #fff;
+}
+.btn_view{
+  background-color:rgb(0, 0, 139);
+  color: #fff;
+}
+/* 
+#fba834
+#fce850
+#387adf
+#fba834
+
+
+btn 
+#7dd87d
+#4c9173
+*/

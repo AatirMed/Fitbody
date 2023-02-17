@@ -34,13 +34,13 @@ const DashbordNoCompleted = () => {
                                 <th>{ele.N}</th>
                                 <th>{ele.All.length}</th>
                                 <th>{ele.All.reduce((T, obj) => T + (obj.qte * obj.prix), 0)} DH</th>
-                                <th> <button onClick={() => dispatch(DeleteCommande([...store.filter(obj => obj.N !== ele.N)]))}>Delete</button></th>
-                                <th><button onClick={() => dispatch(CompletedCommande(ele.N))}>Complete</button></th>
-                                <th><button onClick={() => {
+                                <th> <button className="btn_del" onClick={() => dispatch(DeleteCommande([...store.filter(obj => obj.N !== ele.N)]))}>Delete</button></th>
+                                <th><button className="btn_comp" onClick={() => dispatch(CompletedCommande(ele.N))}>Complete</button></th>
+                                <th><button className="btn_edit" onClick={() => {
                                     navigate(`/Dashbord/Edit/${ele.N}`)
                                     dispatch(ToggleAction());
                                 }}>Edit</button></th>
-                                <th><button onClick={() => {
+                                <th><button className="btn_view" onClick={() => {
                                     navigate(`/Dashbord/NoCompleted/${ele.N}`);
                                     dispatch(ToggleAction());
                                 }}>View Ticket</button></th>
